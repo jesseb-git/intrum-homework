@@ -101,7 +101,6 @@ public class GoRestAPI_Steps {
 		response = request.body(jsonStringFromRequest)
 				.post(BASE_URL+AccessToken);
 
-
 	}
 	@When("the new user is created")
 	public void the_new_user_is_created() {
