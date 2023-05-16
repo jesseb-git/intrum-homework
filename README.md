@@ -13,3 +13,10 @@ The goal was to create a test automation solution from scratch and cover with te
 + USERS data used in test scenarios (example: user creation) is kept in the project as a resource CSV file.
 + Implemented report generating functionality.
 + Readme file created with basic information - requirements / how to run tests / how to generate reports etc.
+
+
+## Requirements
+
+## How to run the tests
+
+## How to view the reports
