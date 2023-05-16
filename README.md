@@ -20,7 +20,6 @@ The goal was to create a test automation solution from scratch and cover with te
 + Java
 + Cucumber
 + JUnit
-+ Eclipse (or another IDE of your choice)
 
 ## How to run the tests
 1. Ensure that you have installed the requirements as listed above
