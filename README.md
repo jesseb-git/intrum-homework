@@ -29,3 +29,6 @@ A report is generated after each run and it is available to view in target/html-
 
 ![image](https://github.com/jesseb-git/intrum-homework/assets/133359394/c9b1c51d-d42e-409a-866b-37e6ab19cc9f)
 
+Cucumber also generates a cloud report after each run and the link for that is available in the console after each run
+
+![image](https://github.com/jesseb-git/intrum-homework/assets/133359394/fbf5731a-310e-4e12-9862-b9f5e0771c8c)
