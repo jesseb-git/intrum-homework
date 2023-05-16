@@ -16,7 +16,16 @@ The goal was to create a test automation solution from scratch and cover with te
 
 
 ## Requirements
++ Maven
++ Java
++ Cucumber
++ JUnit
++ Eclipse (or another IDE of your choice)
 
 ## How to run the tests
 
 ## How to view the reports
+A report is generated after each run and it is available to view in target/html-reports/. The image below shows how they appear when viewed in a browser
+
+![image](https://github.com/jesseb-git/intrum-homework/assets/133359394/c9b1c51d-d42e-409a-866b-37e6ab19cc9f)
+
