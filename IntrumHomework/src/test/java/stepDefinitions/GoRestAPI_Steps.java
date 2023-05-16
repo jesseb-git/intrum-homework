@@ -94,8 +94,8 @@ public class GoRestAPI_Steps {
 		RestAssured.baseURI = BASE_URL;
 		RequestSpecification request = RestAssured.given();
 		request.header("Content-Type","application/json").
-		contentType(ContentType.JSON).
-		accept(ContentType.JSON);
+			contentType(ContentType.JSON).
+			accept(ContentType.JSON);
 		String jsonStringFromRequest = requestJSonObj.toString();
 
 		response = request.body(jsonStringFromRequest)
@@ -140,11 +140,20 @@ public class GoRestAPI_Steps {
 	}
 	@When("the new user is deleted")
 	public void the_new_user_is_deleted() {
-		
+		RestAssured.baseURI = BASE_URL + "/" + newUserID + AccessToken;
+		RequestSpecification request = RestAssured.given();
+		request.header("Content-Type","application/json").
+			contentType(ContentType.JSON).
+			accept(ContentType.JSON);
+		response = request.delete(BASE_URL + "/" + newUserID + AccessToken);
+		assertEquals(response.getStatusCode(),204);
+
 	}
 	@Then("the user should no longer exist")
 	public void the_user_should_no_longer_exist() {
-
+		RequestSpecification httpRequest = RestAssured.given(); 
+		response = httpRequest.get(BASE_URL + "/" + newTestID + AccessToken);
+		assertEquals(response.getStatusCode(), 404);
 	}
 
 
