@@ -23,6 +23,11 @@ The goal was to create a test automation solution from scratch and cover with te
 + Eclipse (or another IDE of your choice)
 
 ## How to run the tests
+1. Ensure that you have installed the requirements as listed above
+2. Clone the repo
+3. Open a console window in the /IntrumHomework folder
+4. Execute the following command to run the tests
+   `mvn clean package`
 
 ## How to view the reports
 A report is generated after each run and it is available to view in target/html-reports/. The image below shows how they appear when viewed in a browser
